@@ -54,5 +54,4 @@ print(sequences[0].get("generated_text"))
 
 if __name__ == "__main__":
     model_name = "meta-llama/Llama-2-7b-chat-hf"
-    hf_token = "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"
     model, tokenizer = download_model(model_name, hf_token)
